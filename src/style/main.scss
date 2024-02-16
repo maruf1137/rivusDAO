@@ -1,0 +1,41 @@
+.hero-bottom .item:not(:last-child) {
+  border-right: 2px solid #fff;
+}
+
+.networks {
+  .line {
+    width: 2px;
+    background-color: #fff;
+    height: 40px;
+  }
+
+  .items {
+    .wrapper {
+      //   background-image: linear-gradient(#333333, #33333300);
+      background-image: linear-gradient(#333333, #000);
+      outline: 1px solid transparent;
+      outline-offset: 5px;
+      transition: all 0.3s;
+
+      //   &:hover {
+      //     outline: 1px solid #fff;
+      //   }
+    }
+
+    .btns {
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s;
+    }
+
+    .item:hover {
+      .wrapper {
+        outline: 1px solid #fff;
+      }
+      .btns {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}
