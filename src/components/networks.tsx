@@ -5,7 +5,7 @@ const Networks = () => {
     <div className="networks">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="max-w-2xl lg:mx-auto lg:text-center">
-          <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+          <h2 className="heading text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
             Supported Networks
           </h2>
           <p className="mt-4 text-white">
@@ -15,20 +15,20 @@ const Networks = () => {
         </div>
         <div className="items grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
           <div className="item">
-            <a href="#" className="wrapper flow-root rounded-lg p-6 relative">
+            <div className="wrapper flow-root rounded-lg p-6 relative">
               <a href="#" className="absolute top-5 right-3">
                 <svg className="icon h-8 w-8 fill-gray-500">
                   <use xlinkHref="/icons.svg#icon-arrow-right"></use>
                 </svg>
               </a>
-              <h3 className="text-2xl font-semibold text-white tracking-tight mb-3">
+              <h3 className="heading text-2xl !text-left text-white tracking-tight mb-3">
                 Ethereum
               </h3>
               <p className="text-base">
                 Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                 Et magna sit morbi lobortis.
               </p>
-              <svg className="icon h-96 w-auto py-10 fill-gray-500">
+              <svg className="h-96 w-auto py-10 fill-gray-500">
                 <use xlinkHref="/icons.svg#icon-ethereum"></use>
               </svg>
               <div className="flex justify-center items-center gap-5">
@@ -46,7 +46,7 @@ const Networks = () => {
                   </p>
                 </div>
               </div>
-            </a>
+            </div>
             <div className="btns flex items-center gap-5 mt-5">
               <a
                 href="#"
@@ -61,20 +61,20 @@ const Networks = () => {
             </div>
           </div>
           <div className="item">
-            <a href="#" className="wrapper flow-root rounded-lg p-6 relative">
+            <div className="wrapper flow-root rounded-lg p-6 relative">
               <a href="#" className="absolute top-5 right-3">
                 <svg className="icon h-8 w-8 fill-gray-500">
                   <use xlinkHref="/icons.svg#icon-arrow-right"></use>
                 </svg>
               </a>
-              <h3 className="text-2xl font-semibold text-white tracking-tight mb-3">
+              <h3 className="heading text-2xl !text-left text-white tracking-tight mb-3">
                 Polygon
               </h3>
               <p className="text-base">
                 Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                 Et magna sit morbi lobortis.
               </p>
-              <svg className="icon h-96 w-auto py-10 fill-gray-500">
+              <svg className="h-96 w-auto py-10 fill-gray-500">
                 <use xlinkHref="/icons.svg#icon-ethereum"></use>
               </svg>
               <div className="flex justify-center items-center gap-5">
@@ -92,7 +92,7 @@ const Networks = () => {
                   </p>
                 </div>
               </div>
-            </a>
+            </div>
             <div className="btns flex items-center gap-5 mt-5">
               <a
                 href="#"
@@ -107,20 +107,20 @@ const Networks = () => {
             </div>
           </div>
           <div className="item">
-            <a href="#" className="wrapper flow-root rounded-lg p-6 relative">
+            <div className="wrapper flow-root rounded-lg p-6 relative">
               <a href="#" className="absolute top-5 right-3">
                 <svg className="icon h-8 w-8 fill-gray-500">
                   <use xlinkHref="/icons.svg#icon-arrow-right"></use>
                 </svg>
               </a>
-              <h3 className="text-2xl font-semibold text-white tracking-tight mb-3">
+              <h3 className="heading text-2xl !text-left text-white tracking-tight mb-3">
                 Ethereum
               </h3>
               <p className="text-base">
                 Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                 Et magna sit morbi lobortis.
               </p>
-              <svg className="icon h-96 w-auto py-10 fill-gray-500">
+              <svg className="h-96 w-auto py-10 fill-gray-500">
                 <use xlinkHref="/icons.svg#icon-bitcoin"></use>
               </svg>
               <div className="flex justify-center items-center gap-5">
@@ -138,7 +138,7 @@ const Networks = () => {
                   </p>
                 </div>
               </div>
-            </a>
+            </div>
             <div className="btns flex items-center gap-5 mt-5">
               <a
                 href="#"

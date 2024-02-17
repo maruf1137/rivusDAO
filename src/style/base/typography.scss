@@ -1,0 +1,40 @@
+h1.heading {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: $font-primary;
+  font-size: 3.4em;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+h2.heading {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: Clash Display, sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+h3.heading {
+  color: #fff;
+  text-align: center;
+  font-family: Clash Display, sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+
+h4 {
+  color: #fff;
+  font-family: Clash Display, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+
+.icon {
+  height: 22px;
+  width: 22px;
+  fill: $color-white;
+}

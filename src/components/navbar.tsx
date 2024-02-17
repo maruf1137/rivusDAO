@@ -6,8 +6,10 @@ const Navbar = () => {
     <div className="navbar bg-transparent fixed top-0 left-0 w-full">
       <div className="navbar-wrapper flex justify-between items-center gap-2 py-3 px-10 max-w-[1400px] mx-auto ">
         <Link href="/">
-          {/* <img src="" alt="LOGO" /> */}
-          <h2 className="heading">Logo</h2>
+          <img
+            src="https://assets-global.website-files.com/65c6576b083478977379c665/65c659cb2449c97477da317a_rivus-header-logo.svg"
+            alt="LOGO"
+          />
         </Link>
         {/* DAO Ecosystem Audits Partners */}
 
