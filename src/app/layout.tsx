@@ -4,6 +4,7 @@ import "./globals.css";
 import "../style/main.scss";
 import "../style/fonts/stylesheet.css";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

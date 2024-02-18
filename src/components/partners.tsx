@@ -11,7 +11,7 @@ const Partners = () => {
           of liquid staking protocols through the voting power of governance token ($RIVUS) tokens."
         />
 
-        <div className="partners__row grid grid-cols-6 gap-5 mt-8">
+        <div className="partners__row grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-5 mt-8">
           <div className="item">
             <img src="/images/partner-img-1.png" alt="" />
           </div>

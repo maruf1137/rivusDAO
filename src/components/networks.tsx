@@ -1,18 +1,16 @@
 import React from "react";
+import SectionHeading from "./sectionHeading";
 
 const Networks = () => {
   return (
     <div className="networks">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-        <div className="max-w-2xl lg:mx-auto lg:text-center">
-          <h2 className="heading text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-            Supported Networks
-          </h2>
-          <p className="mt-4 text-white">
-            Rivus enables you to stake tokens for numerous networks. Choose a
-            network below to get started.
-          </p>
-        </div>
+        <SectionHeading
+          title="Supported Networks"
+          subtitle="Rivus enables you to stake tokens for numerous networks. Choose a
+            network below to get started."
+        />
+
         <div className="items grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 mt-12">
           <div className="item">
             <div className="wrapper flow-root rounded-lg p-6 relative">

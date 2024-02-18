@@ -1,18 +1,15 @@
 import React from "react";
+import SectionHeading from "./sectionHeading";
 
 const Works = () => {
   return (
     <div className="works">
       <div className="max-w-4xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-        <div className="max-w-2xl lg:mx-auto text-center">
-          <h2 className="heading text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-            How Rivus Works
-          </h2>
-          <p className="mt-4 text-white">
-            Understand how liquid staking works for your crypto tokens with
-            Rivus
-          </p>
-        </div>
+        <SectionHeading
+          title="How Rivus Works"
+          subtitle="Understand how liquid staking works for your crypto tokens with
+          Rivus"
+        />
 
         {/* for big devices */}
         <div className="works__row mt-8 flex-col gap-10 hidden sm:flex">
