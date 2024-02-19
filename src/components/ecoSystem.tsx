@@ -3,7 +3,7 @@ import SectionHeading from "./sectionHeading";
 
 const System = () => {
   return (
-    <div className="system">
+    <div className="system" id="ecosystem">
       <div className="max-w-6xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <SectionHeading
           title="Eco System"
@@ -14,7 +14,7 @@ const System = () => {
           <div className="item card-box border border-white rounded-3xl p-5 flex flex-col justify-center items-center">
             <div className="iconbox h-20 w-2h-20 rounded-full bg-black border-2 border-[#03c7ff] mb-5 p-5">
               <img
-                src="https://logosarchive.com/wp-content/uploads/2022/02/Metamask-icon.svg"
+                src="/images/Metamask-icon.svg"
                 alt=""
                 className="h-full w-full"
               />
@@ -27,7 +27,7 @@ const System = () => {
           <div className="item card-box border border-white rounded-3xl p-5 flex flex-col justify-center items-center">
             <div className="iconbox h-20 w-2h-20 rounded-full bg-black border-2 border-[#03c7ff] mb-5 p-5">
               <img
-                src="https://logosarchive.com/wp-content/uploads/2022/02/Metamask-icon.svg"
+                src="/images/Metamask-icon.svg"
                 alt=""
                 className="h-full w-full"
               />
@@ -40,7 +40,7 @@ const System = () => {
           <div className="item card-box border border-white rounded-3xl p-5 flex flex-col justify-center items-center">
             <div className="iconbox h-20 w-2h-20 rounded-full bg-black border-2 border-[#03c7ff] mb-5 p-5">
               <img
-                src="https://logosarchive.com/wp-content/uploads/2022/02/Metamask-icon.svg"
+                src="/images/Metamask-icon.svg"
                 alt=""
                 className="h-full w-full"
               />
@@ -53,7 +53,7 @@ const System = () => {
           <div className="item card-box border border-white rounded-3xl p-5 flex flex-col justify-center items-center">
             <div className="iconbox h-20 w-2h-20 rounded-full bg-black border-2 border-[#03c7ff] mb-5 p-5">
               <img
-                src="https://logosarchive.com/wp-content/uploads/2022/02/Metamask-icon.svg"
+                src="/images/Metamask-icon.svg"
                 alt=""
                 className="h-full w-full"
               />
@@ -66,7 +66,7 @@ const System = () => {
           <div className="item card-box border border-white rounded-3xl p-5 flex flex-col justify-center items-center">
             <div className="iconbox h-20 w-2h-20 rounded-full bg-black border-2 border-[#03c7ff] mb-5 p-5">
               <img
-                src="https://logosarchive.com/wp-content/uploads/2022/02/Metamask-icon.svg"
+                src="/images/Metamask-icon.svg"
                 alt=""
                 className="h-full w-full"
               />
@@ -79,7 +79,7 @@ const System = () => {
           <div className="item card-box border border-white rounded-3xl p-5 flex flex-col justify-center items-center">
             <div className="iconbox h-20 w-2h-20 rounded-full bg-black border-2 border-[#03c7ff] mb-5 p-5">
               <img
-                src="https://logosarchive.com/wp-content/uploads/2022/02/Metamask-icon.svg"
+                src="/images/Metamask-icon.svg"
                 alt=""
                 className="h-full w-full"
               />
@@ -92,7 +92,7 @@ const System = () => {
           <div className="item card-box border border-white rounded-3xl p-5 flex flex-col justify-center items-center">
             <div className="iconbox h-20 w-2h-20 rounded-full bg-black border-2 border-[#03c7ff] mb-5 p-5">
               <img
-                src="https://logosarchive.com/wp-content/uploads/2022/02/Metamask-icon.svg"
+                src="/images/Metamask-icon.svg"
                 alt=""
                 className="h-full w-full"
               />
@@ -105,7 +105,7 @@ const System = () => {
           <div className="item card-box border border-white rounded-3xl p-5 flex flex-col justify-center items-center">
             <div className="iconbox h-20 w-2h-20 rounded-full bg-black border-2 border-[#03c7ff] mb-5 p-5">
               <img
-                src="https://logosarchive.com/wp-content/uploads/2022/02/Metamask-icon.svg"
+                src="/images/Metamask-icon.svg"
                 alt=""
                 className="h-full w-full"
               />
@@ -118,7 +118,7 @@ const System = () => {
           <div className="item card-box border border-white rounded-3xl p-5 flex flex-col justify-center items-center">
             <div className="iconbox h-20 w-2h-20 rounded-full bg-black border-2 border-[#03c7ff] mb-5 p-5">
               <img
-                src="https://logosarchive.com/wp-content/uploads/2022/02/Metamask-icon.svg"
+                src="/images/Metamask-icon.svg"
                 alt=""
                 className="h-full w-full"
               />

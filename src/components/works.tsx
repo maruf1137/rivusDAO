@@ -3,7 +3,7 @@ import SectionHeading from "./sectionHeading";
 
 const Works = () => {
   return (
-    <div className="works">
+    <div className="works" id="works">
       <div className="max-w-4xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <SectionHeading
           title="How Rivus Works"
@@ -16,7 +16,7 @@ const Works = () => {
           <div className="flex items-center justify-between gap-5 lg:gap-8">
             <div className="step-block-image">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65cce8a1f6d804bb097facc2_HRW%20-%201.svg"
+                src="/images/HRW-1.svg"
                 loading="lazy"
                 alt=""
                 className="image-27"
@@ -24,7 +24,7 @@ const Works = () => {
             </div>
             <div className="step-block-number">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65c76d3b48b17a6f46a5b1a5_step-1-number.svg"
+                src="/images/step-1-number.svg"
                 loading="lazy"
                 alt=""
                 className="step-number"
@@ -50,7 +50,7 @@ const Works = () => {
             </div>
             <div className="step-block-number">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65c76effe59f3578cacdac16_step-2-number.svg"
+                src="/images/step-2-number.svg"
                 loading="lazy"
                 alt=""
                 className="step-number"
@@ -58,7 +58,7 @@ const Works = () => {
             </div>
             <div className="step-block-image">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65cce8afd13f6fd922a3b787_HRW%20-%202.svg"
+                src="/images/HRW-2.svg"
                 loading="lazy"
                 alt=""
                 className="image-27"
@@ -68,7 +68,7 @@ const Works = () => {
           <div className="flex items-center justify-between gap-5 lg:gap-8">
             <div className="step-block-image">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65cce8ba013230b1238ffb44_HRW%20-%203.svg"
+                src="/images/HRW-3.svg"
                 loading="lazy"
                 alt=""
                 className="image-27"
@@ -76,7 +76,7 @@ const Works = () => {
             </div>
             <div className="step-block-number">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65c76feb3673a9347453cc1a_step-3-number.svg"
+                src="/images/step-3-number.svg"
                 loading="lazy"
                 alt=""
                 className="step-number"
@@ -97,7 +97,7 @@ const Works = () => {
           <div className="flex flex-col items-center justify-between gap-5 lg:gap-8">
             <div className="step-block-number">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65c76d3b48b17a6f46a5b1a5_step-1-number.svg"
+                src="/images/step-1-number.svg"
                 loading="lazy"
                 alt=""
                 className="step-number"
@@ -113,7 +113,7 @@ const Works = () => {
             </div>
             <div className="step-block-image">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65cce8a1f6d804bb097facc2_HRW%20-%201.svg"
+                src="/images/HRW-1.svg"
                 loading="lazy"
                 alt=""
                 className="image-27"
@@ -123,7 +123,7 @@ const Works = () => {
           <div className="flex flex-col items-center justify-between gap-5 lg:gap-8">
             <div className="step-block-number">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65c76effe59f3578cacdac16_step-2-number.svg"
+                src="/images/step-2-number.svg"
                 loading="lazy"
                 alt=""
                 className="step-number"
@@ -139,7 +139,7 @@ const Works = () => {
             </div>
             <div className="step-block-image">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65cce8afd13f6fd922a3b787_HRW%20-%202.svg"
+                src="/images/HRW-2.svg"
                 loading="lazy"
                 alt=""
                 className="image-27"
@@ -149,7 +149,7 @@ const Works = () => {
           <div className="flex flex-col items-center justify-between gap-5 lg:gap-8">
             <div className="step-block-number">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65c76feb3673a9347453cc1a_step-3-number.svg"
+                src="/images/step-3-number.svg"
                 loading="lazy"
                 alt=""
                 className="step-number"
@@ -166,7 +166,7 @@ const Works = () => {
             </div>
             <div className="step-block-image">
               <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65cce8ba013230b1238ffb44_HRW%20-%203.svg"
+                src="/images/HRW-3.svg"
                 loading="lazy"
                 alt=""
                 className="image-27"

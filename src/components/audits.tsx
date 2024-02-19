@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 
 const Audits = () => {
   return (
-    <div className="audits">
+    <div className="audits" id="audits">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <SectionHeading
           title="Audits"
@@ -144,12 +144,12 @@ const Audits = () => {
           </Swiper>
           {/* <!-- Slider Navigation --> */}
           <div className="group bids-swiper-button-prev swiper-button-prev shadow-white-volume absolute !top-1/2 !-left-4 z-10 -mt-6 flex !h-12 !w-12 cursor-pointer items-center justify-center rounded-full sm:!-left-9 xl:!-left-20 after:hidden">
-            <svg className="icon fill-black !h-full !w-full">
+            <svg className="icon fill-white !h-full !w-full">
               <use xlinkHref="/icons.svg#icon-keyboard_arrow_left"></use>
             </svg>
           </div>
           <div className="group bids-swiper-button-next swiper-button-next shadow-white-volume absolute !top-1/2 !-right-4 z-10 -mt-6 flex !h-12 !w-12 cursor-pointer items-center justify-center rounded-full sm:!-right-9 xl:!-right-20 after:hidden">
-            <svg className="icon fill-black !h-full !w-full">
+            <svg className="icon fill-white !h-full !w-full">
               <use xlinkHref="/icons.svg#icon-keyboard_arrow_right"></use>
             </svg>
           </div>

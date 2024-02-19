@@ -3,7 +3,7 @@ import SectionHeading from "./sectionHeading";
 
 const Partners = () => {
   return (
-    <div className="partners">
+    <div className="partners" id="partners">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <SectionHeading
           title="Partners"
@@ -16,34 +16,34 @@ const Partners = () => {
             <img src="/images/partner-img-1.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-2.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-3.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-4.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-5.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-6.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-4.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-5.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-6.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-3.png" alt="" />
           </div>
           <div className="item">
-            <img src="/images/partner-img-1.png" alt="" />
+            <img src="/images/partner-img-2.png" alt="" />
           </div>
           <div className="item">
             <img src="/images/partner-img-1.png" alt="" />

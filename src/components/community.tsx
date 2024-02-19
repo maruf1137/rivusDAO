@@ -19,7 +19,7 @@ const Community = () => {
               className="card-box flex items-center gap-5 border border-white rounded-2xl p-5">
               <div className="iconbox h-14 w-14 rounded-full border border-[#03c7ff] flex items-center justify-center">
                 <img
-                  src="https://assets-global.website-files.com/65c6576b083478977379c665/65c80a3aa7aae6a637639607_telegram-community-icon.svg"
+                  src="/images/community-img-1.svg"
                   alt=""
                   className="h-6 w-6"
                 />
@@ -38,7 +38,7 @@ const Community = () => {
               className="card-box flex items-center gap-5 border border-white rounded-2xl p-5">
               <div className="iconbox h-14 w-14 rounded-full border border-[#03c7ff] flex items-center justify-center">
                 <img
-                  src="https://assets-global.website-files.com/65c6576b083478977379c665/65c80a4208c3583fde07daf7_twitter-community-icon.svg"
+                  src="/images/community-img-2.svg"
                   alt=""
                   className="h-6 w-6"
                 />
@@ -54,7 +54,7 @@ const Community = () => {
               className="card-box flex items-center gap-5 border border-white rounded-2xl p-5">
               <div className="iconbox h-14 w-14 rounded-full border border-[#03c7ff] flex items-center justify-center">
                 <img
-                  src="https://assets-global.website-files.com/65c6576b083478977379c665/65c80a4afcf5246259faebff_discord-community-icon.svg"
+                  src="/images/community-img-3.svg"
                   alt=""
                   className="h-6 w-6"
                 />
@@ -70,7 +70,7 @@ const Community = () => {
               className="card-box flex items-center gap-5 border border-white rounded-2xl p-5">
               <div className="iconbox h-14 w-14 rounded-full border border-[#03c7ff] flex items-center justify-center">
                 <img
-                  src="https://assets-global.website-files.com/65c6576b083478977379c665/65c80a552a38163bab809af0_contact-us-community-icon.svg"
+                  src="/images/community-img-4.svg"
                   alt=""
                   className="h-6 w-6"
                 />

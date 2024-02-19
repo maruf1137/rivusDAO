@@ -3,7 +3,7 @@ import SectionHeading from "./sectionHeading";
 
 const RivusDAO = () => {
   return (
-    <div className="rivusDAO">
+    <div className="rivusDAO" id="dao">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <SectionHeading
           title="RivusDAO"
@@ -13,12 +13,13 @@ of liquid staking protocols through the voting power of governance token ($RIVUS
 
         <div className="rivusDAO__row grid grid-cols-12 gap-5 mt-8">
           <div className="item border border-white rounded-lg p-10 col-span-12">
-            <figure className="img flex justify-center pb-5">
-              <img
+            <figure className="img flex justify-center pb-5 w-full h-[350px] items-center border-[15px] border-black rounded-2xl">
+              {/* <img
                 src="/images/rivusdao-img.png"
                 alt=""
                 className="rounded-b-lg"
-              />
+              /> */}
+              <h2 className="heading">DAO UI Screenshot Here</h2>
             </figure>
             <h3 className="heading mb-3 text-center">Earn Rewards</h3>
             <p className="text text-center">
@@ -27,10 +28,7 @@ of liquid staking protocols through the voting power of governance token ($RIVUS
           </div>
           <div className="item border border-white rounded-lg p-10 col-span-12 sm:col-span-12 lg:col-span-4">
             <figure className="img flex justify-center pt-10 pb-20">
-              <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65c77334e59f3578cacfb707_earn-rewards-image.svg"
-                alt=""
-              />
+              <img src="/images/earn-rewards-image.svg" alt="" />
             </figure>
             <h3 className="heading mb-3 text-center">Earn Rewards</h3>
             <p className="text text-center">
@@ -39,10 +37,7 @@ of liquid staking protocols through the voting power of governance token ($RIVUS
           </div>
           <div className="item border border-white rounded-lg p-10 col-span-12 sm:col-span-6 lg:col-span-4">
             <figure className="img flex justify-center pt-10 pb-20">
-              <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65c773cd060c9cf3c54c4762_network-security-image.svg"
-                alt=""
-              />
+              <img src="/images/network-security-image.svg" alt="" />
             </figure>
             <h3 className="heading mb-3 text-center">Network Security</h3>
             <p className="text text-center">
@@ -51,10 +46,7 @@ of liquid staking protocols through the voting power of governance token ($RIVUS
           </div>
           <div className="item border border-white rounded-lg p-10 col-span-12 sm:col-span-6 lg:col-span-4">
             <figure className="img flex justify-center pt-10 pb-20">
-              <img
-                src="https://assets-global.website-files.com/65c6576b083478977379c665/65c773e15d8fbef438481e67_maintain-liquidity-image.svg"
-                alt=""
-              />
+              <img src="/images/maintain-liquidity-image.svg" alt="" />
             </figure>
             <h3 className="heading mb-3 text-center">Maintain Liquidity</h3>
             <p className="text text-center">

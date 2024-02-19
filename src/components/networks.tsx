@@ -3,7 +3,7 @@ import SectionHeading from "./sectionHeading";
 
 const Networks = () => {
   return (
-    <div className="networks">
+    <div className="networks" id="networks">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <SectionHeading
           title="Supported Networks"
@@ -26,7 +26,7 @@ const Networks = () => {
                 Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                 Et magna sit morbi lobortis.
               </p>
-              <svg className="h-96 w-auto py-10 fill-gray-500">
+              <svg className="h-96 w-auto py-10 fill-gray-500 mx-auto">
                 <use xlinkHref="/icons.svg#icon-ethereum"></use>
               </svg>
               <div className="flex justify-center items-center gap-5">
@@ -72,7 +72,7 @@ const Networks = () => {
                 Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                 Et magna sit morbi lobortis.
               </p>
-              <svg className="h-96 w-auto py-10 fill-gray-500">
+              <svg className="h-96 w-auto py-10 fill-gray-500 mx-auto">
                 <use xlinkHref="/icons.svg#icon-ethereum"></use>
               </svg>
               <div className="flex justify-center items-center gap-5">
@@ -91,6 +91,7 @@ const Networks = () => {
                 </div>
               </div>
             </div>
+
             <div className="btns flex items-center gap-5 mt-5">
               <a
                 href="#"
@@ -118,7 +119,7 @@ const Networks = () => {
                 Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                 Et magna sit morbi lobortis.
               </p>
-              <svg className="h-96 w-auto py-10 fill-gray-500">
+              <svg className="h-96 w-auto py-10 fill-gray-500 mx-auto">
                 <use xlinkHref="/icons.svg#icon-bitcoin"></use>
               </svg>
               <div className="flex justify-center items-center gap-5">

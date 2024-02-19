@@ -33,19 +33,25 @@ const Navbar = () => {
           </button>
           <ul className="navbar-list flex items-center gap-3">
             <li className="link" onClick={hideMblNav}>
-              <a href="#">Statistics</a>
+              <a href="#stetistics">Statistics</a>
             </li>
             <li className="link" onClick={hideMblNav}>
-              <a href="#">Networks</a>
+              <a href="#networks">Networks</a>
             </li>
             <li className="link" onClick={hideMblNav}>
-              <a href="#">Statistics</a>
+              <a href="#works">How It Works</a>
             </li>
             <li className="link" onClick={hideMblNav}>
-              <a href="#">Statistics</a>
+              <a href="#dao">DAO</a>
             </li>
             <li className="link" onClick={hideMblNav}>
-              <a href="#">Statistics</a>
+              <a href="#ecosystem">Ecosystem</a>
+            </li>
+            <li className="link" onClick={hideMblNav}>
+              <a href="#audits">Audits</a>
+            </li>
+            <li className="link" onClick={hideMblNav}>
+              <a href="#partners">Partners</a>
             </li>
           </ul>
           <a
